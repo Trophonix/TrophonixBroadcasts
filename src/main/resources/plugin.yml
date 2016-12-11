@@ -1,0 +1,11 @@
+name: 'Trophonix Broadcaster'
+author: 'Trophonix'
+version: '1.0'
+description: 'Automatic broadcaster plugin made by Trophonix'
+main: 'com.trophonix.broadcaster.Broadcaster'
+commands:
+  broadcasts:
+    description: "Broadcasts admin command"
+    permission: 'broadcasts.admin'
+    usage: '/broadcasts'
+    aliases: [bcs, bc, broadcast]
